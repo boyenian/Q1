@@ -8,7 +8,7 @@ while True:
     times += 1 
     if player_answer > true_answer:
         print('too high') 
-    elif player_answer == true_answer: 
+    elif player_answer < true_answer: 
         print('too low') 
     elif player_answer == true_answer: 
         print(f"you win,times = {times}") 
