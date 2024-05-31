@@ -1,0 +1,16 @@
+import random 
+x1,x2 = int(input()),int(input()) 
+true_answer = random.randint(x1,x2) 
+player_answer = 0 
+times = 0 
+while True: 
+    player_answer = int(input()) 
+    times += 1 
+    if player_answer > true_answer:
+        print('too high') 
+    elif player_answer == true_answer: 
+        print('too low') 
+    elif player_answer == true_answer: 
+        print(f"you win,times = {times}") 
+        break 
+    
